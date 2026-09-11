@@ -18,5 +18,5 @@ def checking_balance(stack: Stack,staples: str) -> str:
         return 'Сбалансированно'
     else:
         return 'Несбалансированно'
-
-print(checking_balance(stack1,'{}'))
+user_string = input('Введите строку:')
+print(checking_balance(stack1,user_string))

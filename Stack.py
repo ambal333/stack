@@ -17,7 +17,6 @@ class Stack:
 
     def push(self,item):
         self.stack.insert(0,item)
-        return self.stack
 
     def pop(self):
         pop_elem = self.stack.pop(0)
